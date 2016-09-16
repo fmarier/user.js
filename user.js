@@ -31,6 +31,10 @@ user_pref("media.peerconnection.ice.default_address_only", true);
 // https://bugzilla.mozilla.org/show_bug.cgi?id=942515#c32
 user_pref("security.pki.sha1_enforcement_level", 2);
 
+// Restrict referrers to sites belonging to the same organization
+// TODO: blog post
+user_pref("network.http.referer.XOriginPolicy", 1);
+
 // Limit cookie lifetime
 // https://feeding.cloud.geek.nz/posts/tweaking-cookies-for-privacy-in-firefox/
 user_pref("privacy.clearOnShutdown.cookies", false);
@@ -38,7 +42,3 @@ user_pref("network.cookie.cookieBehavior", 0);
 user_pref("network.cookie.lifetimePolicy", 3);
 user_pref("network.cookie.lifetime.days", 5);
 user_pref("network.cookie.thirdparty.sessionOnly", true);
-
-// Referrer
-// TODO: investigate the other settings and write a blog post
-user_pref("network.http.referer.spoofSource", true);
