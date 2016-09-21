@@ -9,7 +9,6 @@ user_pref("privacy.donottrackheader.enabled", true);
 // Feature that can be disabled w/o much breakage
 ////////////////////////////////////////////////////
 
-user_pref("beacon.enabled", false);
 user_pref("device.sensors.enabled", false);
 user_pref("dom.battery.enabled", false);
 user_pref("geo.enabled", false);
