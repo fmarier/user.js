@@ -21,6 +21,7 @@ user_pref("dom.battery.enabled", false);
 user_pref("dom.netinfo.enabled", false);
 user_pref("media.video_stats.enabled", false);
 user_pref("dom.enable_performance", false);
+user_pref("webgl.enable-debug-renderer-info", false);
 
 //////////////////////////
 // Features to restrict
