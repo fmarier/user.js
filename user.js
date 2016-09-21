@@ -19,6 +19,7 @@ user_pref("pdfjs.disabled", true); // use external PDF viewer instead
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("media.video_stats.enabled", false);
 user_pref("browser.casting.enabled", false); // https://bugzil.la/1111967
+user_pref("dom.enable_performance", false);
 
 //////////////////////////
 // Features to restrict
