@@ -30,7 +30,8 @@ user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("privacy.resistFingerprinting", true);
 
 // Don't reveal your internal IP: http://net.ipcalf.com/
-user_pref("media.peerconnection.ice.default_address_only", true);
+user_pref("media.peerconnection.ice.default_address_only", true); // Firefox < 51
+user_pref("media.peerconnection.ice.no_host", true); // Firefox >= 51
 // https://bugzilla.mozilla.org/show_bug.cgi?id=942515#c32
 user_pref("security.pki.sha1_enforcement_level", 2);
 
