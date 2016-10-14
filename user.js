@@ -46,3 +46,10 @@ user_pref("network.cookie.cookieBehavior", 0);
 user_pref("network.cookie.lifetimePolicy", 3);
 user_pref("network.cookie.lifetime.days", 5);
 user_pref("network.cookie.thirdparty.sessionOnly", true);
+
+///////////
+// Other
+///////////
+
+// Recommended by https-by-default add-on
+user_pref("browser.urlbar.trimURLs", false);
