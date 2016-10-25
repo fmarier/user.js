@@ -35,9 +35,9 @@ user_pref("media.peerconnection.ice.no_host", true); // Firefox >= 51
 // https://bugzilla.mozilla.org/show_bug.cgi?id=942515#c32
 user_pref("security.pki.sha1_enforcement_level", 2);
 
-// Use the origin as referrer on cross-origin requests
-// TODO: blog post
-user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
+// Don't send cross-origin referrers
+// https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/
+user_pref("network.http.referer.XOriginPolicy", 1);
 
 // Limit cookie lifetime
 // https://feeding.cloud.geek.nz/posts/tweaking-cookies-for-privacy-in-firefox/
