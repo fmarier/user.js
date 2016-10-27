@@ -32,8 +32,9 @@ user_pref("privacy.resistFingerprinting", true);
 // Don't reveal your internal IP: http://net.ipcalf.com/
 user_pref("media.peerconnection.ice.default_address_only", true); // Firefox < 51
 user_pref("media.peerconnection.ice.no_host", true); // Firefox >= 51
-// https://dxr.mozilla.org/mozilla-central/rev/f9f3cc95d7282f1fd83f66dd74acbcdbfe821915/security/certverifier/CertVerifier.h#143-152
-user_pref("security.pki.sha1_enforcement_level", 4);
+// Turn off SHA1 certificates issued in 2016 or later
+user_pref("security.pki.sha1_enforcement_level", 2); // Firefox < 52
+user_pref("security.pki.sha1_enforcement_level", 4); // Firefox >= 52
 
 // Don't send cross-origin referrers
 // https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/
