@@ -17,7 +17,7 @@ user_pref("browser.casting.enabled", false); // https://bugzil.la/1111967
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 
 // Avoid providing non-essential info to web content
-user_pref("dom.battery.enabled", false);
+user_pref("dom.battery.enabled", false); // Firefox < 52
 user_pref("dom.netinfo.enabled", false);
 user_pref("media.video_stats.enabled", false);
 user_pref("dom.enable_performance", false);
