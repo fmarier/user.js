@@ -10,7 +10,6 @@ user_pref("privacy.donottrackheader.enabled", true);
 ////////////////////////////////////////////////////
 
 user_pref("device.sensors.enabled", false);
-user_pref("geo.enabled", false);
 user_pref("media.eme.enabled", false); // proprietary DRM plugins
 user_pref("pdfjs.disabled", true); // use external PDF viewer instead
 user_pref("browser.casting.enabled", false); // https://bugzil.la/1111967
