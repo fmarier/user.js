@@ -14,6 +14,9 @@ user_pref("media.eme.enabled", false); // proprietary DRM plugins
 user_pref("pdfjs.disabled", true); // use external PDF viewer instead
 user_pref("browser.casting.enabled", false); // https://bugzil.la/1111967
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
+user_pref("webgl.disabled", true);
+user_pref("dom.gamepad.enabled", false);
+user_pref("dom.webaudio.enabled", false);
 
 // Avoid providing non-essential info to web content
 user_pref("dom.battery.enabled", false); // Firefox < 52
