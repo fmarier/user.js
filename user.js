@@ -19,7 +19,6 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 
 // Avoid providing non-essential info to web content
-user_pref("dom.battery.enabled", false); // Firefox < 52
 user_pref("dom.netinfo.enabled", false);
 user_pref("media.video_stats.enabled", false);
 user_pref("dom.enable_performance", false);
@@ -32,10 +31,7 @@ user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("privacy.resistFingerprinting", true);
 
 // Don't reveal your internal IP: http://net.ipcalf.com/
-user_pref("media.peerconnection.ice.default_address_only", true); // Firefox < 51
-user_pref("media.peerconnection.ice.no_host", true); // Firefox >= 51
-// Turn off SHA1 certificates issued in 2016 or later
-user_pref("security.pki.sha1_enforcement_level", 2); // Firefox < 52
+user_pref("media.peerconnection.ice.no_host", true);
 
 // Don't send cross-origin referrers
 // https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/
