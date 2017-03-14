@@ -51,3 +51,6 @@ user_pref("network.cookie.thirdparty.sessionOnly", true);
 
 // Recommended by https-by-default add-on
 user_pref("browser.urlbar.trimURLs", false);
+
+// Automatically expand the "more details" part of TLS errors
+user_pref("browser.xul.error_pages.expert_bad_cert", true);
