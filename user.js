@@ -18,6 +18,7 @@ user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("webgl.disabled", true); // large attack surface
 user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
+user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 
 // Avoid providing non-essential info to web content
 user_pref("dom.netinfo.enabled", false);
