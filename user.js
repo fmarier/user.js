@@ -15,6 +15,7 @@ user_pref("pdfjs.disabled", true); // use external PDF viewer instead
 user_pref("browser.casting.enabled", false); // listens on network: https://bugzil.la/1111967
 user_pref("devtools.webide.enabled", false); // listens on network: https://bugzil.la/1249645
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
+user_pref("dom.vr.enabled", false);
 user_pref("webgl.disabled", true); // large attack surface
 user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
