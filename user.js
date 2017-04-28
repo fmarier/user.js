@@ -21,6 +21,10 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 
+// Disable clipboard APIs to prevent "copy/paste into a terminal" attacks
+user_pref("dom.event.clipboardevents.enabled", false);
+user_pref("dom.allow_cut_copy", false);
+
 // Avoid providing non-essential info to web content
 user_pref("dom.netinfo.enabled", false);
 user_pref("media.video_stats.enabled", false);
