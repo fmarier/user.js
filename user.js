@@ -14,16 +14,13 @@ user_pref("media.eme.enabled", false); // proprietary DRM plugins
 user_pref("pdfjs.disabled", true); // use external PDF viewer instead
 user_pref("browser.casting.enabled", false); // listens on network: https://bugzil.la/1111967
 user_pref("devtools.webide.enabled", false); // listens on network: https://bugzil.la/1249645
+user_pref("dom.allow_cut_copy", false); // prevents "copy/paste into a terminal" attacks
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("dom.vr.enabled", false);
 user_pref("webgl.disabled", true); // large attack surface
 user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
-
-// Disable clipboard APIs to prevent "copy/paste into a terminal" attacks
-user_pref("dom.event.clipboardevents.enabled", false);
-user_pref("dom.allow_cut_copy", false);
 
 // Avoid providing non-essential info to web content
 user_pref("dom.netinfo.enabled", false);
