@@ -53,6 +53,9 @@ user_pref("network.cookie.thirdparty.sessionOnly", true);
 // Other
 ///////////
 
+// Use MLS for the geolocation API
+user_pref("geo.wifi.uri", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
+
 // Recommended by https-by-default add-on
 user_pref("browser.urlbar.trimURLs", false);
 
