@@ -62,5 +62,8 @@ user_pref("geo.wifi.uri", "https://location.services.mozilla.com/v1/geolocate?ke
 // Recommended by https-by-default add-on
 user_pref("browser.urlbar.trimURLs", false);
 
+// Prevent accidental closure of browser windows
+user_pref("browser.tabs.closeWindowWithLastTab", false);
+
 // Automatically expand the "more details" part of TLS errors
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
