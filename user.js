@@ -21,6 +21,10 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 
+// Tests don't pass yet but the feature works
+user_pref("security.data_uri.unique_opaque_origin", true);
+user_pref("security.data_uri.block_toplevel_data_uri_navigations", true);
+
 // Avoid providing non-essential info to web content
 user_pref("dom.netinfo.enabled", false);
 user_pref("media.video_stats.enabled", false);
