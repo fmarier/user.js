@@ -5,6 +5,10 @@
 user_pref("privacy.trackingprotection.enabled",	true);
 user_pref("privacy.donottrackheader.enabled", true);
 
+// Experimental Safe Browsing features
+user_pref("browser.safebrowsing.passwords.enabled", true);
+user_pref("browser.safebrowsing.provider.google4.dataSharing.enabled", true);
+
 ////////////////////////////////////////////////////
 // Feature that can be disabled w/o much breakage
 ////////////////////////////////////////////////////
