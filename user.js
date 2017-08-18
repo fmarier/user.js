@@ -25,7 +25,8 @@ user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 
-// Tests don't pass yet but the feature works
+// These will become defaults in the future
+user_pref("network.auth.subresource-img-cross-origin-http-auth-allow", false);
 user_pref("security.data_uri.unique_opaque_origin", true);
 user_pref("security.data_uri.block_toplevel_data_uri_navigations", true);
 
