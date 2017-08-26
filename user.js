@@ -21,7 +21,6 @@ user_pref("devtools.webide.enabled", false); // listens on network: https://bugz
 user_pref("dom.allow_cut_copy", false); // prevents "copy/paste into a terminal" attacks
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("dom.vr.enabled", false);
-user_pref("dom.gamepad.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 
