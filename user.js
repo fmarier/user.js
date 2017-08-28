@@ -26,7 +26,7 @@ user_pref("network.IDN_show_punycode", true); // there are no perfect solutions 
 
 // These will become defaults in the future
 user_pref("network.auth.subresource-img-cross-origin-http-auth-allow", false);
-//user_pref("security.data_uri.unique_opaque_origin", true); // breaks Easy Passwords extension
+user_pref("security.data_uri.unique_opaque_origin", true);
 user_pref("security.data_uri.block_toplevel_data_uri_navigations", true);
 
 // Avoid providing non-essential info to web content
