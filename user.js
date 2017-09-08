@@ -16,8 +16,6 @@ user_pref("browser.safebrowsing.provider.google4.dataSharing.enabled", true);
 user_pref("device.sensors.enabled", false);
 user_pref("media.eme.enabled", false); // proprietary DRM plugins
 user_pref("pdfjs.disabled", true); // use external PDF viewer instead
-user_pref("browser.casting.enabled", false); // listens on network: https://bugzil.la/1111967
-user_pref("devtools.webide.enabled", false); // listens on network: https://bugzil.la/1249645
 user_pref("dom.allow_cut_copy", false); // prevents "copy/paste into a terminal" attacks
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("dom.vr.enabled", false);
@@ -39,6 +37,11 @@ user_pref("webgl.enable-debug-renderer-info", false);
 // Can be re-enabled manually as needed
 user_pref("webgl.disabled", true); // large attack surface
 user_pref("media.peerconnection.enabled", false);
+
+// Disable things that listen on the network
+user_pref("browser.casting.enabled", false); // https://bugzil.la/1111967
+user_pref("devtools.webide.enabled", false); // https://bugzil.la/1249645
+user_pref("dom.presentation.discoverable", false);
 
 //////////////////////////
 // Features to restrict
