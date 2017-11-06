@@ -77,5 +77,8 @@ user_pref("browser.urlbar.trimURLs", false);
 // Prevent accidental closure of browser windows
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 
+// Automatically expand the "see details" part of Safe Browsing errors
+user_pref("browser.xul.error_pages.show_safe_browsing_details_on_load", true);
+
 // Automatically expand the "more details" part of TLS errors
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
