@@ -22,6 +22,7 @@ user_pref("dom.vr.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 user_pref("accessibility.force_disabled", true); // not needed
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // too distracting
 
 // These will become defaults in the future
 user_pref("network.auth.subresource-img-cross-origin-http-auth-allow", false);
