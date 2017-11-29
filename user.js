@@ -24,6 +24,7 @@ user_pref("network.IDN_show_punycode", true); // there are no perfect solutions 
 user_pref("accessibility.force_disabled", true); // not needed
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // too distracting
 user_pref("extensions.pocket.enabled", false);
+user_pref("browser.search.suggest.enabled", false); // leaks keystrokes to search engine
 
 // These will become defaults in the future
 user_pref("network.auth.subresource-img-cross-origin-http-auth-allow", false);
