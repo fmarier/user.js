@@ -49,6 +49,7 @@ user_pref("dom.presentation.discoverable", false);
 // Disable autofill for everything but passwords
 user_pref("extensions.formautofill.addresses.enabled", false);
 user_pref("extensions.formautofill.creditCards.enabled", false);
+user_pref("signon.formlessCapture.enabled", false);
 
 //////////////////////////
 // Features to restrict
