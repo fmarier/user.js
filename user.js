@@ -21,7 +21,7 @@ user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("dom.vr.enabled", false);
 user_pref("dom.webaudio.enabled", false);
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
-user_pref("accessibility.force_disabled", true); // not needed
+user_pref("accessibility.force_disabled", 1); // not needed
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // too distracting
 user_pref("extensions.pocket.enabled", false);
 user_pref("browser.search.suggest.enabled", false); // leaks keystrokes to search engine
