@@ -20,6 +20,7 @@ user_pref("dom.allow_cut_copy", false); // prevents "copy/paste into a terminal"
 user_pref("layout.css.visited_links_enabled", false); // regularly leaks
 user_pref("dom.vr.enabled", false);
 user_pref("dom.webaudio.enabled", false);
+user_pref("javascript.options.shared_memory", false); // can be used to make hi-res timers
 user_pref("network.IDN_show_punycode", true); // there are no perfect solutions for this
 user_pref("accessibility.force_disabled", 1); // not needed
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // too distracting
