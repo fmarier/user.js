@@ -9,6 +9,8 @@ user_pref("privacy.donottrackheader.enabled", true);
 user_pref("browser.safebrowsing.passwords.enabled", true);
 user_pref("browser.safebrowsing.provider.google4.dataSharing.enabled", true);
 
+user_pref("security.mixed_content.upgrade_display_content", true);
+
 ////////////////////////////////////////////////////
 // Feature that can be disabled w/o much breakage
 ////////////////////////////////////////////////////
