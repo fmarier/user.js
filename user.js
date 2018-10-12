@@ -4,11 +4,8 @@
 
 user_pref("privacy.trackingprotection.enabled",	true);
 user_pref("privacy.donottrackheader.enabled", true);
-
-// Experimental Safe Browsing features
-user_pref("browser.safebrowsing.passwords.enabled", true);
-user_pref("browser.safebrowsing.provider.google4.dataSharing.enabled", true);
-
+user_pref("security.insecure_connection_text.enabled", true);
+user_pref("security.insecure_connection_icon.enabled", true);
 user_pref("security.mixed_content.upgrade_display_content", true);
 
 ////////////////////////////////////////////////////
