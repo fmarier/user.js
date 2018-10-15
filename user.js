@@ -30,6 +30,7 @@ user_pref("browser.search.suggest.enabled", false); // leaks keystrokes to searc
 user_pref("network.auth.subresource-img-cross-origin-http-auth-allow", false);
 user_pref("security.data_uri.unique_opaque_origin", true);
 user_pref("security.data_uri.block_toplevel_data_uri_navigations", true);
+user_pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
 
 // Avoid providing non-essential info to web content
 user_pref("dom.netinfo.enabled", false);
