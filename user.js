@@ -88,3 +88,7 @@ user_pref("browser.xul.error_pages.show_safe_browsing_details_on_load", true);
 
 // Automatically expand the "more details" part of TLS errors
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
+
+// Turn off all autoplaying videos
+user_pref("media.autoplay.allow-muted", false);
+user_pref("media.autoplay.default", 1);
