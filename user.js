@@ -1,3 +1,5 @@
+// NOTE: While this file is still valid and in use, it is not actively maintained anymore.
+
 ////////////////////////////////////
 // Non-default features to enable
 ////////////////////////////////////
